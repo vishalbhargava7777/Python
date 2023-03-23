@@ -1,0 +1,13 @@
+import numpy as np
+
+# create a 2D array of size 2x3
+arr = np.array([[1, 2, 3], [4, 5, 6]])
+
+# print the type of the array
+print("Type of array:", type(arr))
+
+# print the shape of the array
+print("Shape of array:", arr.shape)
+
+# print the dtype of the array
+print("Data type of array:", arr.dtype)

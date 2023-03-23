@@ -1,0 +1,15 @@
+# function to find the factorial of a number with recursion
+def factorial(num):
+    if num == 1:
+        return 1
+    else:
+        return num * factorial(num-1)
+
+# get input from user
+num = int(input("Enter a number: "))
+
+# calculate the factorial
+fact = factorial(num)
+
+# print the factorial
+print("The factorial of", num, "is", fact)
