@@ -9,5 +9,5 @@ if __name__ == "__main__":
 	n = 9
 	print(fibonacci(n))
 
-# This code is contributed by Manan Tyagi.
+# This code is contributed by Vishal Bhargava.
 
